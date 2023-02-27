@@ -1,0 +1,26 @@
+{
+  "name": "node-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annyenkov/node-01.git"
+  },
+  "homepage": "https://github.com/Annyenkov/node-01#readme",
+  "author": "Viktor <annyenkov@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uid": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
